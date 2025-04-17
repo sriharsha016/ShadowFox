@@ -1,0 +1,6 @@
+@echo off
+echo Running Delhi AQI Analysis...
+python delhi_aqi_analysis.py
+echo Analysis complete. Opening report...
+start Delhi_AQI_Analysis_Report.md
+pause
